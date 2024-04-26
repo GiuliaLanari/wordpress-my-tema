@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.content h2,
+.content h1 {
+  font-size: 16px;
+}
