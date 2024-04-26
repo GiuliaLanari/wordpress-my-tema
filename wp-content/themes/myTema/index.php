@@ -22,11 +22,11 @@ get_header();
     } ?>
 </div>
 
-<div class="text-center">
+<div class="text-center mb-2">
 <?php
 echo paginate_links();
 ?>
 </div>
 
-
+<?php
 get_footer();
