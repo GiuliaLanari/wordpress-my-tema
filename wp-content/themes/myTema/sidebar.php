@@ -1,7 +1,7 @@
 <?php
 
 $posts_for_aside = new WP_Query([
-    "post_per_page"=>4,
+    "posts_per_page"=>4,
     "orderby"=> "rand",
 ]);?>
 
