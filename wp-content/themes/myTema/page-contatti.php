@@ -4,7 +4,7 @@ the_post(); ?>
 
 <h1 class="text-center my-5 display-3"><?php the_title(); ?></h1>
 <div class="col-12 col-md-5 mx-auto">
-<!-- <form action="//<apertuta php// site_url("submit-form.php")?>" method="post" class="d-flex flex-column">
+<!-- <form action="//<//?//php site_url("/submit-form.php")?>" method="post" class="d-flex flex-column">
 
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -23,7 +23,11 @@ the_post(); ?>
   <button type="submit" class="btn btn-primary ms-auto">Submit</button>
 
 </form> -->
-<?php the_content();?>
+
+<div >
+    <?php the_content(); ?>
+</div>
+
 </div>
 
 <?php

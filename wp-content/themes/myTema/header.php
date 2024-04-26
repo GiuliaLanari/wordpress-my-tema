@@ -17,14 +17,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="<?= site_url('/blog') ?>">Blog</a>
+          <a class="nav-link "  href="<?= site_url('/blog') ?>">Blog</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?= site_url('/contatti') ?>">Contatti</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="s">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>

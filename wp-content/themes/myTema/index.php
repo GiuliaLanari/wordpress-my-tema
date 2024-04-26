@@ -2,6 +2,7 @@
 get_header();
 ?>
 <h1 class="text-center my-4 display-3"><?php the_archive_title(); ?></h1>
+<p><?php the_archive_description(); ?></p>
 <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3 mb-5 "><?php
     while (have_posts()) {
         the_post(); ?>
@@ -22,7 +23,7 @@ get_header();
     } ?>
 </div>
 
-<div class="text-center mb-2">
+<div class="text-center mb-2 ">
 <?php
 echo paginate_links();
 ?>
